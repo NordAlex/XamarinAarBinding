@@ -1,0 +1,5 @@
+C:\Users\Anuitex-118\source\repos\XamarinAarBinding\AarBinding\bin\Debug\AarBinding.dll
+C:\Users\Anuitex-118\source\repos\XamarinAarBinding\AarBinding\bin\Debug\AarBinding.pdb
+C:\Users\Anuitex-118\source\repos\XamarinAarBinding\AarBinding\obj\Debug\AarBinding.csproj.CoreCompileInputs.cache
+C:\Users\Anuitex-118\source\repos\XamarinAarBinding\AarBinding\obj\Debug\AarBinding.dll
+C:\Users\Anuitex-118\source\repos\XamarinAarBinding\AarBinding\obj\Debug\AarBinding.pdb

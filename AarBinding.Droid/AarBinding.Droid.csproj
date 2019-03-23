@@ -94,6 +94,12 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AarBinding\AarBinding.csproj">
+      <Project>{dc85fca5-7b50-4c77-9546-6dabc1f22e5b}</Project>
+      <Name>AarBinding</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.

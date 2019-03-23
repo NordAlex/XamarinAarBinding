@@ -246,6 +246,15 @@
         "build": {
           "build/MonoAndroid81/Xamarin.Android.Support.Vector.Drawable.targets": {}
         }
+      },
+      "AarBinding/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/AarBinding.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AarBinding.dll": {}
+        }
       }
     }
   },
@@ -467,10 +476,16 @@
         "xamarin.android.support.vector.drawable.27.0.2.1.nupkg.sha512",
         "xamarin.android.support.vector.drawable.nuspec"
       ]
+    },
+    "AarBinding/1.0.0": {
+      "type": "project",
+      "path": "../AarBinding/AarBinding.csproj",
+      "msbuildProject": "../AarBinding/AarBinding.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "AarBinding >= 1.0.0",
       "Xamarin.Android.Support.Design >= 27.0.2.1"
     ]
   },
@@ -500,7 +515,11 @@
       },
       "frameworks": {
         "monoandroid81": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Anuitex-118\\source\\repos\\XamarinAarBinding\\AarBinding\\AarBinding.csproj": {
+              "projectPath": "C:\\Users\\Anuitex-118\\source\\repos\\XamarinAarBinding\\AarBinding\\AarBinding.csproj"
+            }
+          }
         }
       }
     },
